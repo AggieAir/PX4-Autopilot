@@ -32,7 +32,6 @@
 ############################################################################
 
 px4_add_romfs_files(
-
 	1010_gazebo-classic_iris_opt_flow
 	1010_gazebo-classic_iris_opt_flow.post
 	1011_gazebo-classic_iris_irlock
@@ -60,6 +59,8 @@ px4_add_romfs_files(
 	1042_gazebo-classic_tiltrotor
 	1043_gazebo-classic_standard_vtol_drop
 	1044_gazebo-classic_plane_lidar
+	1045_gazebo-classic_standard_vtol_cam
+	1046_gazebo-classic_standard_vtol_irlock
 	1060_gazebo-classic_rover
 	1061_gazebo-classic_r1_rover
 	1062_flightgear_tf-r1

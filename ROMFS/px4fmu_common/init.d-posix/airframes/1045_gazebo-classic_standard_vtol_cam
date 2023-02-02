@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# @name Standard VTOL with camera
+#
+# @type Standard VTOL
+#
+
+. ${R}etc/init.d-posix/airframes/1040_standard_vtol
+
+# Camera trigger interface is MAVLink
+param set-default TRIG_INTERFACE 3
+
+# Distance trigger mode enabled
+param set-default TRIG_MODE 4
