@@ -95,6 +95,8 @@ if(gazebo_FOUND)
 		rover
 		standard_vtol
 		standard_vtol_drop
+		standard_vtol_cam
+		standard_vtol_irlock
 		tailsitter
 		techpod
 		tiltrotor
