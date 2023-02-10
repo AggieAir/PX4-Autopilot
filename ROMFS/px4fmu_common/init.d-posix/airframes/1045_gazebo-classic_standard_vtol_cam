@@ -5,7 +5,7 @@
 # @type Standard VTOL
 #
 
-. ${R}etc/init.d-posix/airframes/1040_standard_vtol
+. ${R}etc/init.d-posix/airframes/1040_gazebo-classic_standard_vtol
 
 # Camera trigger interface is MAVLink
 param set-default TRIG_INTERFACE 3
