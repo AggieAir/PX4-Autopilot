@@ -96,7 +96,7 @@ if(gazebo_FOUND)
 		standard_vtol
 		standard_vtol_drop
 		standard_vtol_cam
-		standard_vtol_irlock
+    standard_vtol_irlock
 		tailsitter
 		techpod
 		tiltrotor
@@ -109,6 +109,8 @@ if(gazebo_FOUND)
 		none
 		baylands
 		empty
+    iris_irlock
+    standard_vtol_cam 
 		ksql_airport
 		mcmillan_airfield
 		sonoma_raceway
